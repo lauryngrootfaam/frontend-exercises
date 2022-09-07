@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kloten met bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1>Bootstrap hallo</h1>
+
+
+
+    <div class="container">
+        <h2>Normale container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dolorum cum enim voluptate sunt dolores
+            consectetur molestiae, eligendi aperiam quas itaque beatae maxime consequatur ab, facilis aspernatur nostrum
+            vitae aliquam?</p>
+    </div>
+
+
+    <!-- the width stays alway 100% -->
+    <div class="container-fluid">
+        <h2>fluid container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor adipisci inventore amet facere quam eveniet
+            minus impedit exercitationem quaerat eius sapiente atque, architecto molestiae, veniam hic. Quod minus
+            excepturi iure?</p>
+    </div>
+
+    <!-- Een max width wordt mee gegeven afhanelijk van de groote van het scherm -->
+    <div class="container-lg my-5">
+        <h2>hallo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sint ad nulla quidem hic consequatur, esse
+            ipsum autem vitae at, expedita earum nostrum? Obcaecati voluptatem perspiciatis ab dolorem beatae id.</p>
+    </div>
+
+
+
+    <!-- Grids -->
+
+    <!-- Basic grid -->
+    <div class="container my-5">
+        <h2>basic grid</h2>
+        <div class="row">
+            <div class="col">
+                <div class="p-5 bg-primary text-light">
+                    column 1
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="p-5 bg-success text-light">
+                    column 2
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-danger text-light">
+                    column 3
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!--  grid different widths -->
+      <div class="container my-5">
+        <h2>Verschillende width grid</h2>
+        <div class="row">
+            <div class="col-3">
+                <div class="p-5 bg-primary text-light">
+                    column 1
+                </div>
+            </div>
+
+            <div class="col-7">
+                <div class="p-5 bg-success text-light">
+                    column 2
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="p-5 bg-danger text-light">
+                    column 3
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  responsive width grid -->
+    <div class="container my-5">
+        <h2>Responsive width grid</h2>
+        <div class="row">
+            <div class="col-sm-4 col-lg-8">
+                <div class="p-5 bg-primary text-light">
+                    column 1
+                </div>
+            </div>
+
+            <div class="col-sm-4 col-lg-2">
+                <div class="p-5 bg-success text-light">
+                    column 2
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-2 ">
+                <div class="p-5 bg-danger text-light">
+                    column 3
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
