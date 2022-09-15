@@ -1,3 +1,18 @@
 .redText {
     color: #ff0000 !important;
    } 
+
+   .submenu {
+    background-color: black;
+    width: 100%;
+    padding: 2em 0em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 30%;
+   }
+
+   .display {
+    display: none;
+
+   }

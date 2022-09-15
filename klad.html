@@ -1,0 +1,54 @@
+<!-- <div class="container xxl-">
+    <img src="https://cdn.webshopapp.com/shops/246937/files/411144369/image.jpg" alt="Shop the latest arrivals">
+</div>
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        {% for new in newest %}
+        <div class="col">
+            <img src="{{ new.image | url_image('200x256x1')}}" alt="{{ product.fulltitle }}">
+            <div class="fw-bold">{{  new.brand.title}}</div>
+            <div>{{  new.fulltitle}}</div>
+            <div> € {{ new.price.price}}</div>
+        </div>
+        {% endfor %}
+
+    </div>
+</div> -->
+
+
+<!-- const navLink = document.getElementById("test");
+
+
+// function makeTextRed(navItem){
+//     if (navItem === "Sale"){
+//         console.log("er is een link gelijk aan sale");
+//         navLink.className += " redText"; 
+//    }
+   
+//    else {
+//         console.log("er gebeurd niets");
+//    }
+
+// }
+
+// makeTextRed(navLink.textContent); -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="swatchProductColor">hallo</button>
+    
+    <script src="klad.js"></script>
+</body>
+</html>
